@@ -1,0 +1,7 @@
+This assignment was tested on my local machine rather than on Google Colab. All discussions are based on the outputs from my notebook execution. Since the PyTorch3D optimization involves randomness, there might be significant differences if you run it again compared to my notebook. Additionally, some discussions include strikethrough text to explain phenomena observed in outputs from different executions.
+
+According to Plotly documentation[https://plotly.com/python/webgl-vs-svg/]: It may not be possible to render more than 8 WebGL-involving figures on the same page at the same time. Since Plotly cannot display many figures in a single IPYNB file, we have divided our file into several parts to facilitate a more comprehensive review of all results.
+
+You may directly view the "*_ALL.ipynb" notebook, but you will find that as you continue viewing, some earlier plots may disappear. There are two options: 1. Refresh the notebook page in your browser, then locate and interact with your desired plot. 2. View the "part*.ipynb" files, which are divided into sections that can be viewed without any plots disappearing.
+
+The "*_ALL.ipynb" notebook contains all the source code for my assignment, and the "part*" files function in the same way as this notebook. If you want to experiment with the "*_ALL.ipynb" notebook, you can either "Restart the kernel and run all cells" or execute it block by block. However, avoid running any previous blocks more than once as it could cause unexpected behavior.
